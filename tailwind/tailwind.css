@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+   .wrapper{
+    @apply 2xl:w-full 2xl:h-screen 2xl:bg-lime-300 
+           xl:w-full xl:h-screen xl:bg-battle
+           lg:w-full lg:h-screen lg:bg-fuchsia-400
+           md:w-full md:h-screen md:bg-amber-400
+           sm:w-full sm:h-screen sm:bg-blue-400
+
+
+
+   }
+/* .secondmenu{
+@apply
+       2xl:
+       xl:
+       lg:
+
+
+
+
+
+
+
+} */
+
+div.marginleft{
+   
+    @apply 2xl:ml-[170px] 
+           xl:ml-[160px] 
+           lg:ml-[156px]
+           md:ml-[141px]
+           sm:ml-[131px]
+
+
+   }
+
+
+   /* ul.alloption{
+    width: 1026.14px !important;
+   } */
+   .alloption>li{
+    width: 113.45px; 
+    height: 56px;
+  
+  }
+  .alldeopdown>li{
+    width: 264px; 
+    height: 56px;
+  
+  }
+}
