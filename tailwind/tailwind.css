@@ -2,16 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 @layer components{
-   .wrapper{
+   /* .wrapper{
     @apply 2xl:w-full 2xl:h-screen 2xl:bg-lime-300 
-           xl:w-full xl:h-screen xl:bg-battle
+           xl:w-full xl:h-[screen] xl:bg-battle
            lg:w-full lg:h-screen lg:bg-fuchsia-400
            md:w-full md:h-screen md:bg-amber-400
            sm:w-full sm:h-screen sm:bg-blue-400
 
 
 
-   }
+   } */
 /* .secondmenu{
 @apply
        2xl:
@@ -26,7 +26,7 @@
 
 } */
 
-div.marginleft{
+/* div.marginleft{
    
     @apply 2xl:ml-[170px] 
            xl:ml-[160px] 
@@ -35,7 +35,7 @@ div.marginleft{
            sm:ml-[131px]
 
 
-   }
+   } */
 
 
    /* ul.alloption{
