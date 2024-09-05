@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 @layer components{
+
+  /* .Dashboardammm{
+    @apply 2xl:flex
+            xl:flex
+            lg:flex
+            md:hidden
+            sm:hidden
+            size-min
+
+
+
+
+
+
+
+  } */
    /* .wrapper{
     @apply 2xl:w-full 2xl:h-screen 2xl:bg-lime-300 
            xl:w-full xl:h-[screen] xl:bg-battle
@@ -11,8 +27,8 @@
 
 
 
-   } */
-/* .secondmenu{
+   }
+.secondmenu{
 @apply
        2xl:
        xl:
@@ -24,9 +40,9 @@
 
 
 
-} */
+}
 
-/* div.marginleft{
+div.marginleft{
    
     @apply 2xl:ml-[170px] 
            xl:ml-[160px] 
@@ -38,9 +54,9 @@
    } */
 
 
-   /* ul.alloption{
+   ul.alloption{
     width: 1026.14px !important;
-   } */
+   }
    .alloption>li{
     width: 113.45px; 
     height: 56px;
@@ -51,4 +67,5 @@
     height: 56px;
   
   }
+  
 }
