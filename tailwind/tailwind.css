@@ -3,6 +3,15 @@
 @tailwind utilities;
 @layer components{
 
+.media{
+@apply 
+2xl:w-full
+md: w-155px
+lg:w-60
+
+}
+
+
   /* .Dashboardammm{
     @apply 2xl:flex
             xl:flex

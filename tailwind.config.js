@@ -23,6 +23,7 @@ module.exports = {
 "warning": "#fef08a",
           
 "error": "#fb7185",
+"yeelo":"#FFA825"
           },
         },
       "dark", "retro",],

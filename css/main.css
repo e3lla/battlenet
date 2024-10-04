@@ -2090,6 +2090,24 @@ html {
   margin-inline-start: calc(var(--border-btn) * -1);
 }
 
+@media (min-width: 768px) {
+  .media {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .media {
+    width: 15rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .media {
+    width: 100%;
+  }
+}
+
 /* .Dashboardammm{
     @apply 2xl:flex
             xl:flex
@@ -2951,14 +2969,6 @@ ul.alloption{
 
   .md\:hidden {
     display: none;
-  }
-
-  .md\:h-\[50px\] {
-    height: 50px;
-  }
-
-  .md\:w-\[100px\] {
-    width: 100px;
   }
 
   .md\:w-\[495px\] {
